@@ -1,0 +1,343 @@
+{
+    "userevent": {
+        "prefix": "userevent",
+        "body": [
+          "/**",
+          " * @copyright © 2022, Oracle and/or its affiliates. All rights reserved.",
+          " *",
+          " * @NApiVersion 2.x",
+          " * @NModuleScope Public",
+          " * @NScriptType UserEventScript",
+          " */",
+          "",
+          "import { EntryPoints } from \"N/types\";",
+          "",
+          "export function afterSubmit(context: EntryPoints.UserEvent.afterSubmitContext): void {}",
+          "",
+          "export function beforeSubmit(context: EntryPoints.UserEvent.beforeSubmitContext): void {}",
+          "",
+          "export function beforeLoad(context: EntryPoints.UserEvent.beforeLoadContext): void {}",
+          ""
+        ],
+        "description": "User Event"
+    },
+    "afterSubmit": {
+        "prefix": "afterSubmit",
+        "body": [
+          "export function afterSubmit(context: EntryPoints.UserEvent.afterSubmitContext): void {}"
+        ],
+        "description": "afterSubmit"
+    },
+    "beforeSubmit": {
+        "prefix": "beforeSubmit",
+        "body": [
+          "export function beforeSubmit(context: EntryPoints.UserEvent.beforeSubmitContext): void {}"
+        ],
+        "description": "beforeSubmit"
+    },
+    "beforeLoad": {
+        "prefix": "beforeLoad",
+        "body": [
+          "export function beforeLoad(context: EntryPoints.UserEvent.beforeLoadContext): void {}"
+        ],
+        "description": "beforeLoad"
+    },
+    "emptyscript": {
+        "prefix": "emptyscript",
+        "body": [
+          "/**",
+          " * Copyright (c) 2021, Oracle NetSuite and/or its affiliates. All rights reserved.",
+          " *",
+          " * @NApiVersion 2.x",
+          " * @NModuleScope Public",
+          " */"
+        ],
+        "description": "lib"
+    },
+    "clientscript": {
+        "prefix": "clientscript",
+        "body": [
+          "/**",
+          " * @copyright © 2022, Oracle and/or its affiliates. All rights reserved.",
+          " *",
+          " * @NApiVersion 2.x",
+          " * @NModuleScope Public",
+          " * @NScriptType ClientScript",
+          " */",
+          "",
+          "import { EntryPoints } from \"N/types\";",
+          "",
+          "export function fieldChanged(context: EntryPoints.Client.fieldChangedContext): void {}",
+          "",
+          "export function lineinit(context: EntryPoints.Client.lineInitContext): void {}",
+          "",
+          "export function pageInit(context: EntryPoints.Client.pageInitContext): void {}",
+          "",
+          "export function postSourcing(context: EntryPoints.Client.postSourcingContext): void {}",
+          "",
+          "export function saveRecord(context: EntryPoints.Client.saveRecordContext): void {}",
+          "",
+          "export function sublistChanged(context: EntryPoints.Client.sublistChangedContext): void {}",
+          "",
+          "export function validateDelete(context: EntryPoints.Client.validateDeleteContext): void {}",
+          "",
+          "export function validateField(context: EntryPoints.Client.validateFieldContext): void {}",
+          "",
+          "export function validateInsert(context: EntryPoints.Client.validateInsertContext): void {}",
+          "",
+          "export function validateLine(context: EntryPoints.Client.validateLineContext): void {}",
+          "",
+          "export function localizationContextEnter(context: any): void {}",
+          "",
+          "export function localizationContextExit(context: any): void {}",
+          ""
+        ],
+        "description": "clientscript"
+    },
+    "fieldChanged": {
+        "prefix": "fieldChanged",
+        "body": [
+          "export function fieldChanged(context: EntryPoints.Client.fieldChangedContext): void {}"
+        ],
+        "description": "fieldChanged"
+    },
+    "lineinit": {
+      "prefix": "lineinit",
+      "body": [
+        "export function lineinit(context: EntryPoints.Client.lineInitContext): void {}"
+      ],
+      "description": "lineinit"
+    },
+    "pageInit": {
+      "prefix": "pageInit",
+      "body": [
+        "export function pageInit(context: EntryPoints.Client.pageInitContext): void {}"
+      ],
+      "description": "pageInit"
+    },
+    "postSourcing": {
+      "prefix": "postSourcing",
+      "body": [
+        "export function postSourcing(context: EntryPoints.Client.postSourcingContext): void {}"
+      ],
+      "description": "postSourcing"
+    },
+    "saveRecord": {
+      "prefix": "saveRecord",
+      "body": [
+        "export function saveRecord(context: EntryPoints.Client.saveRecordContext): void {}"
+      ],
+      "description": "saveRecord"
+    },
+    "sublistChanged": {
+      "prefix": "sublistChanged",
+      "body": [
+        "export function sublistChanged(context: EntryPoints.Client.sublistChangedContext): void {}"
+      ],
+      "description": "sublistChanged"
+    },
+    "validateDelete": {
+      "prefix": "validateDelete",
+      "body": [
+        "export function validateDelete(context: EntryPoints.Client.validateDeleteContext): void {}"
+      ],
+      "description": "validateDelete"
+    },
+    "validateField": {
+      "prefix": "validateField",
+      "body": [
+        "export function validateField(context: EntryPoints.Client.validateFieldContext): void {}"
+      ],
+      "description": "validateField"
+    },
+    "validateInsert": {
+      "prefix": "validateInsert",
+      "body": [
+        "export function validateInsert(context: EntryPoints.Client.validateInsertContext): void {}"
+      ],
+      "description": "validateInsert"
+    },
+    "validateLine": {
+      "prefix": "validateLine",
+      "body": [
+        "export function validateLine(context: EntryPoints.Client.validateLineContext): void {}"
+      ],
+      "description": "validateLine"
+    },
+    "localizationContextEnter": {
+      "prefix": "localizationContextEnter",
+      "body": [
+        "export function localizationContextEnter(context: any): void {}"
+      ],
+      "description": "localizationContextEnter"
+    },
+    "localizationContextExit": {
+      "prefix": "localizationContextExit",
+      "body": [
+        "export function localizationContextExit(context: any): void {}"
+      ],
+      "description": "localizationContextExit"
+    },
+    "mapreduce": {
+        "prefix": "mapreduce",
+        "body": [
+          "/**",
+          " * @copyright © 2022, Oracle and/or its affiliates. All rights reserved.",
+          " *",
+          " * @NApiVersion 2.x",
+          " * @NModuleScope Public",
+          " * @NScriptType MapReduceScript",
+          " */",
+          "",
+          "import { EntryPoints } from \"N/types\";",
+          "",
+          "export function getInputData(context: EntryPoints.MapReduce.getInputDataContext): void {}",
+          "",
+          "export function map(context: EntryPoints.MapReduce.mapContext): void {}",
+          "",
+          "export function reduce(context: EntryPoints.MapReduce.reduceContext): void {}",
+          "",
+          "export function summarize(context: EntryPoints.MapReduce.summarizeContext): void {}",
+          ""
+        ],
+        "description": "mapreduce"
+    },
+    "getInputData": {
+      "prefix": "getInputData",
+      "body": [
+        "export function getInputData(context: EntryPoints.MapReduce.getInputDataContext): void {}"
+      ],
+      "description": "getInputData"
+    },
+    "map": {
+      "prefix": "map",
+      "body": [
+        "export function map(context: EntryPoints.MapReduce.mapContext): void {}"
+      ],
+      "description": "map"
+    },
+    "reduce": {
+      "prefix": "reduce",
+      "body": [
+        "export function reduce(context: EntryPoints.MapReduce.reduceContext): void {}"
+      ],
+      "description": "reduce"
+    },
+    "summarize": {
+      "prefix": "summarize",
+      "body": [
+        "export function summarize(context: EntryPoints.MapReduce.summarizeContext): void {}"
+      ],
+      "description": "summarize"
+    },
+    "portlet": {
+        "prefix": "portlet",
+        "body": [
+          "/**",
+          " * @copyright © 2022, Oracle and/or its affiliates. All rights reserved.",
+          " *",
+          " * @NApiVersion 2.x",
+          " * @NModuleScope Public",
+          " * @NScriptType Portlet",
+          " */",
+          "",
+          "import { EntryPoints } from \"N/types\";",
+          "",
+          "export function render(context: EntryPoints.Portlet.renderContext): void {}",
+          ""
+        ],
+        "description": "portlet"
+    },
+    "schedule": {
+        "prefix": "schedule",
+        "body": [
+          "/**",
+          " * @copyright © 2022, Oracle and/or its affiliates. All rights reserved.",
+          " *",
+          " * @NApiVersion 2.x",
+          " * @NModuleScope Public",
+          " * @NScriptType ScheduledScript",
+          " */",
+          "",
+          "import { EntryPoints } from \"N/types\";",
+          "",
+          "export function execute(context: EntryPoints.Scheduled.executeContext): void {}",
+          ""
+        ],
+        "description": "schedule"
+    },
+    "suitelet": {
+        "prefix": "suitelet",
+        "body": [
+          "/**",
+          " * @copyright © 2022, Oracle and/or its affiliates. All rights reserved.",
+          " *",
+          " * @NApiVersion 2.x",
+          " * @NModuleScope Public",
+          " * @NScriptType Suitelet",
+          " */",
+          "",
+          "import { EntryPoints } from \"N/types\";",
+          "",
+          "export function onRequest(context: EntryPoints.Suitelet.onRequestContext): void {}",
+          ""
+        ],
+        "description": "suitelet"
+    },
+    "sdfinstallationscript": {
+        "prefix": "sdfinstallationscript",
+        "body": [
+          "/**",
+          " * @copyright © 2022, Oracle and/or its affiliates. All rights reserved.",
+          " *",
+          " * @NApiVersion 2.x",
+          " * @NScriptType sdfinstallationscript",
+          " */",
+          "",
+          "export const run = (scriptContext?: unknown): void => {};",
+          ""
+        ],
+        "description": "sdfinstallationscript"
+    },
+    "Unit test": {
+      "prefix": "unit-test-template",
+      "body": [
+        "/**",
+        " * Copyright (c) 2021, Oracle NetSuite and/or its affiliates. All rights reserved.",
+        " */",
+        "",
+        "beforeEach(() => {",
+        "    jest.clearAllMocks();",
+        "});",
+        "",
+        "afterEach(() => {});",
+        "",
+        "describe(\"\", () => {",
+        "    beforeAll(() => {});",
+        "",
+        "    beforeEach(() => {});",
+        "",
+        "    describe(\"\", () => {});",
+        "});",
+        ""
+      ],
+      "description": "Unit test"
+    },
+    "describe": {
+      "prefix": "describe",
+      "body": [
+        "describe(\"\", () => {",
+        "",
+        "});"
+      ],
+      "description": "describe"
+    },
+    "it": {
+      "prefix": "it",
+      "body": [
+        "it(\"\", () => {",
+        "});"
+      ],
+      "description": "it"
+    }
+}
